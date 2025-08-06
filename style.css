@@ -46,6 +46,14 @@
   background-color: #b2e0bb;
 }
 
+.blackKey:hover {
+  cursor: pointer;
+}
+
+.blackKey:active {
+  filter: invert();
+}
+
 .ghostKey {
   flex: 0.5;
 }
